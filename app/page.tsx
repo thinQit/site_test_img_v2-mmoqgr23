@@ -13,13 +13,17 @@ import AngledSectionDivider from "@/components/AngledSectionDivider";
 export default function HomePage() {
   return (
     <main className="bg-background text-foreground">
-      <div className="animate-fade-in-up">
+      <div className="animate-fade-in-up [&_.text-foreground]:!text-gray-900 [&_.text-muted-foreground]:!text-gray-800">
         <AceternityHeroAurora
           headline="Build real strength—with coaching that doesn’t miss."
-          subheadline="Iron & Oak Fitness is a premium strength training gym offering personal coaching and high-intensity group classes. Train smart, lift heavy, and progress every week—no guesswork."
-          primaryCta={{ label: "Claim a Free Intro Session", href: "/contact?intent=free-intro" }}
+          subheadline="Premium Strength Training & Personal Coaching Since 2019."
+          primaryCta={{
+            label: "Claim a Free Intro Session",
+            href: "/contact?intent=free-intro",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "View Class Schedule", href: "#classes" }}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578079/site-images/fitness/13947314.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578068/site-images/fitness/13993021.jpg"
           locationLine="Downtown Austin • 1127 E 6th St, Austin, TX 78702"
           hours="Mon–Fri 5:30am–8:30pm • Sat 8:00am–2:00pm • Sun 9:00am–1:00pm"
           trustBadges={["Coach-led sessions", "Small class caps (12 max)", "Beginner-friendly strength cycles"]}
@@ -36,7 +40,11 @@ export default function HomePage() {
         <ClassSchedule
           headline="Class schedule built for busy lifters."
           subheadline="Strength-first programming with clear progressions. Choose your time, show up, and we coach the details."
-          primaryCta={{ label: "Book a Trial Class", href: "/contact?intent=trial-class" }}
+          primaryCta={{
+            label: "Book a Trial Class",
+            href: "/contact?intent=trial-class",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "Meet the Coaches", href: "#trainers" }}
           classTypes={[
             { name: "IRON (Strength)", intensity: "Moderate–High", duration: "55 min", focus: "Squat/bench/deadlift variations + accessories", bestFor: "Building foundational strength and muscle" },
@@ -58,7 +66,11 @@ export default function HomePage() {
         <TrainerCardsGrid
           headline="Coaches who cue the details—and track your progress."
           subheadline="You’ll never wonder what to do next. We coach technique, load selection, and weekly progression so you keep improving safely."
-          primaryCta={{ label: "Schedule a Coach Consult", href: "/contact?intent=coach-consult" }}
+          primaryCta={{
+            label: "Schedule a Coach Consult",
+            href: "/contact?intent=coach-consult",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "See Memberships", href: "#pricing" }}
           trainers={[
             { name: "Alex Navarro", role: "Head Strength Coach", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578067/site-images/fitness/10039536.jpg", bio: "CSCS • USAW L1 • 10+ years coaching barbell athletes." },
@@ -74,12 +86,16 @@ export default function HomePage() {
         <MembershipTiers
           headline="Memberships that match your goals—and your schedule."
           subheadline="All memberships include coaching, programming, and progress tracking. Upgrade anytime as your training needs change."
-          primaryCta={{ label: "Start with a Free Intro", href: "/contact?intent=free-intro" }}
+          primaryCta={{
+            label: "Start with a Free Intro",
+            href: "/contact?intent=free-intro",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "Questions? Contact Us", href: "/contact" }}
           tiers={[
-            { name: "Foundation", price: "$149/mo", badge: "Best for consistency", description: "Coach-led strength training that fits a busy week.", features: ["8 classes/month", "Strength cycle programming", "Form coaching every session", "Monthly progress check-in"], cta: { label: "Choose Foundation", href: "/contact?intent=membership&plan=foundation" } },
-            { name: "Performance", price: "$199/mo", badge: "Most popular", description: "Train often, progress faster, and stay accountable.", features: ["Unlimited classes", "Priority booking (early access)", "Quarterly movement screen", "Open Gym Fridays"], cta: { label: "Choose Performance", href: "/contact?intent=membership&plan=performance" } },
-            { name: "Elite Coaching", price: "$349/mo", badge: "Premium", description: "Personal coaching + classes for maximum results.", features: ["Unlimited classes", "2x 1:1 coaching sessions/month", "Customized accessory work", "Nutrition habit plan + weekly check-ins"], cta: { label: "Choose Elite", href: "/contact?intent=membership&plan=elite" } },
+            { name: "Foundation", price: "$149/mo", badge: "Best for consistency", description: "Coach-led strength training that fits a busy week.", features: ["8 classes/month", "Strength cycle programming", "Form coaching every session", "Monthly progress check-in"], cta: { label: "Choose Foundation", href: "/contact?intent=membership&plan=foundation", className: "bg-orange-600 hover:bg-orange-700" } },
+            { name: "Performance", price: "$199/mo", badge: "Most popular", description: "Train often, progress faster, and stay accountable.", features: ["Unlimited classes", "Priority booking (early access)", "Quarterly movement screen", "Open Gym Fridays"], cta: { label: "Choose Performance", href: "/contact?intent=membership&plan=performance", className: "bg-orange-600 hover:bg-orange-700" } },
+            { name: "Elite Coaching", price: "$349/mo", badge: "Premium", description: "Personal coaching + classes for maximum results.", features: ["Unlimited classes", "2x 1:1 coaching sessions/month", "Customized accessory work", "Nutrition habit plan + weekly check-ins"], cta: { label: "Choose Elite", href: "/contact?intent=membership&plan=elite", className: "bg-orange-600 hover:bg-orange-700" } },
           ]}
           finePrint={[
             "Month-to-month. No long-term contracts.",
@@ -94,7 +110,11 @@ export default function HomePage() {
         <TransformationGallery
           headline="Real members. Real progress."
           subheadline="We focus on strength, consistency, and coaching. The results follow—better lifts, better energy, and better confidence."
-          primaryCta={{ label: "See How We Coach", href: "/about" }}
+          primaryCta={{
+            label: "See How We Coach",
+            href: "/about",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "Start Your Trial", href: "/contact?intent=trial-class" }}
           gallery={[
             { name: "Sam P.", timeframe: "12 weeks", result: "+55 lb deadlift • -2\" waist", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578069/site-images/fitness/11713858.jpg" },
@@ -110,7 +130,11 @@ export default function HomePage() {
         <StatsCounter
           headline="A strength gym built on measurable progress."
           subheadline="We track attendance, lifts, and training blocks so you can see momentum—not just feel sore."
-          primaryCta={{ label: "Get Your Baseline Assessment", href: "/contact?intent=assessment" }}
+          primaryCta={{
+            label: "Get Your Baseline Assessment",
+            href: "/contact?intent=assessment",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "Explore Programs", href: "/services" }}
           stats={[
             { value: "12", label: "Max class size" },
@@ -125,7 +149,11 @@ export default function HomePage() {
         <CTASparkles
           title="Try Iron & Oak—free intro session included."
           subtitle="Meet a coach, get a movement screen, and leave with a clear plan for your next 12 weeks. No pressure—just clarity."
-          primaryCta={{ label: "Claim Free Intro", href: "/contact?intent=free-intro" }}
+          primaryCta={{
+            label: "Claim Free Intro",
+            href: "/contact?intent=free-intro",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "Call (512) 555-0199", href: "tel:+15125550199" }}
           whatYouGet={[
             "Goal + training history review",
@@ -138,11 +166,15 @@ export default function HomePage() {
         />
       </div>
 
-      <div className="animate-fade-in-up bg-muted py-20 md:py-28">
+      <div className="animate-fade-in-up bg-muted py-20 md:py-32">
         <TestimonialsAnimated
           title="Members who train here don’t just sweat—they progress."
           subtitle="High standards, supportive coaching, and a community that shows up."
-          primaryCta={{ label: "Join the Community", href: "/contact?intent=membership" }}
+          primaryCta={{
+            label: "Join the Community",
+            href: "/contact?intent=membership",
+            className: "bg-orange-600 hover:bg-orange-700",
+          }}
           secondaryCta={{ label: "Visit Us", href: "/contact#location" }}
           testimonials={[
             { quote: "I’ve done gyms where you’re basically on your own. Here, coaches actually watch your reps and adjust your plan.", name: "Danielle W.", designation: "Member • 9 months", src: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578092/site-images/fitness/13106624.jpg" },
