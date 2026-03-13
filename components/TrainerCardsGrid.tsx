@@ -9,8 +9,8 @@ export default function TrainerCardsGrid() {
         <h2 className="text-3xl font-black uppercase text-white md:text-4xl">Meet Your Coaches</h2>
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           <div className="transition-transform hover:-translate-y-1"><TrainerCard /></div>
-          <div className="transition-transform hover:-translate-y-1"><TrainerCard name="Coach Eli Carter" imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771577370/site-images/team-people/10375912.jpg" /></div>
-          <div className="transition-transform hover:-translate-y-1"><TrainerCard name="Coach Roman Hale" imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771577325/site-images/team-people/10347164.jpg" /></div>
+          <div className="transition-transform hover:-translate-y-1"><TrainerCard name="Coach Eli Carter" imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578064/site-images/fitness/11385974.jpg" /></div>
+          <div className="transition-transform hover:-translate-y-1"><TrainerCard name="Coach Roman Hale" imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578047/site-images/fitness/13965335.jpg" /></div>
         </div>
       </div>
     </section>

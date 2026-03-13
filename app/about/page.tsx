@@ -13,7 +13,7 @@ export default function AboutPage() {
           subheadline="Iron & Oak was created for people who want to train hard, lift well, and stay healthy."
           primaryCta={{ label: "Meet Us In Person", href: "/contact?intent=visit" }}
           secondaryCta={{ label: "See Coaches", href: "/#trainers" }}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578070/site-images/fitness/10942666.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578077/site-images/fitness/10448088.jpg"
         />
       </div>
       <div className="animate-fade-in-up bg-muted py-20 md:py-28">
@@ -36,7 +36,7 @@ export default function AboutPage() {
           primaryCta={{ label: "Claim Free Intro", href: "/contact?intent=free-intro" }}
           secondaryCta={{ label: "See Schedule", href: "/#classes" }}
           whatYouGet={["Movement screen", "Goal planning", "Recommended class track"]}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578074/site-images/fitness/10551484.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578062/site-images/fitness/13621287.jpg"
         />
       </div>
     </main>

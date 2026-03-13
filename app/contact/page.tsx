@@ -13,7 +13,7 @@ export default function ContactPage() {
           subheadline="Book a free intro session, ask a question, or stop by for a tour."
           primaryCta={{ label: "Book Free Intro", href: "#contact-form" }}
           secondaryCta={{ label: "Call (512) 555-0199", href: "tel:+15125550199" }}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578051/site-images/fitness/13965875.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578055/site-images/fitness/13278075.jpg"
         />
       </div>
       <div id="contact-form" className="animate-fade-in-up bg-muted py-20 md:py-28">
@@ -38,7 +38,7 @@ export default function ContactPage() {
           address="1127 E 6th St, Austin, TX 78702"
           parking="Street parking on E 6th + paid lot behind the building after 5pm."
           landmarks="Two blocks east of the Austin Convention Center."
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578053/site-images/fitness/13018401.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578086/site-images/fitness/13106584.jpg"
         />
       </div>
     </main>

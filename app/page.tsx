@@ -57,7 +57,7 @@ export default function HomePage() {
             "All classes are coach-led with warm-up, main lift/effort, and finisher.",
             "Beginner? Start with LIFT LAB or book a Free Intro Session.",
           ]}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578053/site-images/fitness/11075080.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578072/site-images/fitness/14086547.jpg"
         />
       </div>
 
@@ -73,9 +73,9 @@ export default function HomePage() {
           }}
           secondaryCta={{ label: "See Memberships", href: "#pricing" }}
           trainers={[
-            { name: "Alex Navarro", role: "Head Strength Coach", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578067/site-images/fitness/10039536.jpg", bio: "CSCS • USAW L1 • 10+ years coaching barbell athletes." },
-            { name: "Maya Reed", role: "Coach • Group Training Lead", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578051/site-images/fitness/10112284.jpg", bio: "NASM-CPT • Precision Nutrition L1 • Hypertrophy programming specialist." },
-            { name: "Priya Desai", role: "Coach • Conditioning & Performance", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578077/site-images/fitness/10448088.jpg", bio: "CF-L2 • TRX • CPR/AED • Athletic conditioning expert." },
+            { name: "Alex Navarro", role: "Head Strength Coach", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578061/site-images/fitness/11513151.jpg", bio: "CSCS • USAW L1 • 10+ years coaching barbell athletes." },
+            { name: "Maya Reed", role: "Coach • Group Training Lead", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578088/site-images/fitness/11219264.jpg", bio: "NASM-CPT • Precision Nutrition L1 • Hypertrophy programming specialist." },
+            { name: "Priya Desai", role: "Coach • Conditioning & Performance", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578091/site-images/fitness/13896897.jpg", bio: "CF-L2 • TRX • CPR/AED • Athletic conditioning expert." },
             { name: "Jordan Kim", role: "Coach • Technique & Mobility", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578058/site-images/fitness/1103244.jpg", bio: "USAW L1 • FRC Mobility Specialist • Barbell mechanics coach." },
           ]}
         />
@@ -102,7 +102,7 @@ export default function HomePage() {
             "Class reservations open 7 days in advance. 12-person cap.",
             "Student/first responder discount: 10% (in-gym verification).",
           ]}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578061/site-images/fitness/11513151.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578052/site-images/fitness/13106575.jpg"
         />
       </div>
 
@@ -117,10 +117,10 @@ export default function HomePage() {
           }}
           secondaryCta={{ label: "Start Your Trial", href: "/contact?intent=trial-class" }}
           gallery={[
-            { name: "Sam P.", timeframe: "12 weeks", result: "+55 lb deadlift • -2\" waist", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578069/site-images/fitness/11713858.jpg" },
+            { name: "Sam P.", timeframe: "12 weeks", result: "+55 lb deadlift • -2\" waist", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578053/site-images/fitness/13018401.jpg" },
             { name: "Elena R.", timeframe: "16 weeks", result: "First strict pull-up • +30 lb squat", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578084/site-images/fitness/13106579.jpg" },
-            { name: "Marcus T.", timeframe: "10 weeks", result: "5K pace improved by 1:10/mi • Stronger lifts", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578092/site-images/fitness/13106581.jpg" },
-            { name: "Nina K.", timeframe: "14 weeks", result: "+20 lb bench • Confident barbell form", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578086/site-images/fitness/13106584.jpg" },
+            { name: "Marcus T.", timeframe: "10 weeks", result: "5K pace improved by 1:10/mi • Stronger lifts", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578051/site-images/fitness/12250460.jpg" },
+            { name: "Nina K.", timeframe: "14 weeks", result: "+20 lb bench • Confident barbell form", imageUrl: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578070/site-images/fitness/10942666.jpg" },
           ]}
           disclaimer="Results vary by individual effort, consistency, sleep, and nutrition. We coach the process and track the progress."
         />
@@ -162,7 +162,7 @@ export default function HomePage() {
             "Next steps for strength and conditioning",
           ]}
           availability="New member intros available Tue–Thu 11:00am–1:00pm and Mon–Wed 6:30pm–7:30pm."
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578045/site-images/fitness/13106611.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578067/site-images/fitness/10039536.jpg"
         />
       </div>
 
@@ -178,8 +178,8 @@ export default function HomePage() {
           secondaryCta={{ label: "Visit Us", href: "/contact#location" }}
           testimonials={[
             { quote: "I’ve done gyms where you’re basically on your own. Here, coaches actually watch your reps and adjust your plan.", name: "Danielle W.", designation: "Member • 9 months", src: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578092/site-images/fitness/13106624.jpg" },
-            { quote: "The programming is simple and effective. I show up, follow the plan, and the coaches keep me honest on form.", name: "Chris L.", designation: "Member • 5 months", src: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578055/site-images/fitness/13278075.jpg" },
-            { quote: "Small classes make a huge difference. It feels premium with coaching that makes you better every week.", name: "Alyssa M.", designation: "Member • 1 year", src: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578072/site-images/fitness/13562693.jpg" },
+            { quote: "The programming is simple and effective. I show up, follow the plan, and the coaches keep me honest on form.", name: "Chris L.", designation: "Member • 5 months", src: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578053/site-images/fitness/11075080.jpg" },
+            { quote: "Small classes make a huge difference. It feels premium with coaching that makes you better every week.", name: "Alyssa M.", designation: "Member • 1 year", src: "https://res.cloudinary.com/dwc294mzm/image/upload/v1771578078/site-images/fitness/10475451.jpg" },
           ]}
           ratingSummary={{ rating: "4.9/5", source: "Google Reviews", count: 186 }}
         />

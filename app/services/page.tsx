@@ -13,7 +13,7 @@ export default function ServicesPage() {
           subheadline="Whether you want to add pounds to the bar, improve your engine, or get fully customized coaching—Iron & Oak has a clear path."
           primaryCta={{ label: "Start with a Free Intro", href: "/contact?intent=free-intro" }}
           secondaryCta={{ label: "View Memberships", href: "/#pricing" }}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578069/site-images/fitness/12905815.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578072/site-images/fitness/13345705.jpg"
         />
       </div>
       <div className="animate-fade-in-up bg-muted py-20 md:py-28">
@@ -36,7 +36,7 @@ export default function ServicesPage() {
           primaryCta={{ label: "Claim Free Intro", href: "/contact?intent=free-intro" }}
           secondaryCta={{ label: "Contact", href: "/contact" }}
           whatYouGet={["Movement screen", "Coach consult", "First-month roadmap"]}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578072/site-images/fitness/13345705.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578079/site-images/fitness/13947314.jpg"
         />
       </div>
     </main>

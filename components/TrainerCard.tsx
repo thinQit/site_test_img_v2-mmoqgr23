@@ -18,7 +18,7 @@ export default function TrainerCard({
   specialties = ['Strength Progressions', 'Women’s Performance', 'Technique'],
   bio = 'Maya helps members build confidence under the bar with precise programming and no-fluff coaching.',
   signatureSession = 'Barbell Confidence Blueprint',
-  imageSrc = 'https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771577363/site-images/team-people/12903169.jpg',
+  imageSrc = 'https://res.cloudinary.com/dwc294mzm/image/upload/v1771578078/site-images/fitness/13993019.jpg',
 }: Partial<TrainerCardProps>) {
   return (
     <Card className="overflow-hidden border-white/10 bg-white/5 text-white">

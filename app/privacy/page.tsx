@@ -13,7 +13,7 @@ export default function PrivacyPage() {
           subheadline="We collect only what we need to schedule sessions and respond to inquiries."
           primaryCta={{ label: "Contact", href: "/contact" }}
           secondaryCta={{ label: "Home", href: "/" }}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578078/site-images/fitness/10475451.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578084/site-images/fitness/13993903.jpg"
         />
       </div>
       <section className="animate-fade-in-up py-20 md:py-28">

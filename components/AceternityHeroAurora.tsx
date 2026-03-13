@@ -13,7 +13,7 @@ interface AceternityHeroAuroraProps {
 export default function AceternityHeroAurora({
   headline = 'BUILD BRUTAL STRENGTH. TRAIN WITH PURPOSE.',
   subheadline = 'Personal coaching + group performance classes designed for real progress.',
-  imageSrc = 'https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578052/site-images/fitness/13106575.jpg',
+  imageSrc = 'https://res.cloudinary.com/dwc294mzm/image/upload/v1771578069/site-images/fitness/12905815.jpg',
 }: Partial<AceternityHeroAuroraProps>) {
   return (
     <AuroraBackground className="min-h-[80vh]">

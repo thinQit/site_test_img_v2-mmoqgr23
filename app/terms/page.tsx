@@ -13,7 +13,7 @@ export default function TermsPage() {
           subheadline="Standard terms for using our website and booking sessions."
           primaryCta={{ label: "Contact", href: "/contact" }}
           secondaryCta={{ label: "Home", href: "/" }}
-          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/c_fill,w_1200,h_800,g_auto/v1771578095/site-images/fitness/136405.jpg"
+          imageSrc="https://res.cloudinary.com/dwc294mzm/image/upload/v1771578092/site-images/fitness/13106581.jpg"
         />
       </div>
       <section className="animate-fade-in-up py-20 md:py-28">
